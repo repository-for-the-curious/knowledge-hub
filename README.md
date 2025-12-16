@@ -14,6 +14,7 @@ repositórios, temas e decisões técnicas da organização.
 - 🧭 [Propósito | Purpose | Zweck](#purpose)
 - 🔎 [SEARCH_CONTENT](#search-content)
 - 🧠 [Como Usar | How to Use | Wie Verwenden](#how-to-use)
+- 🤝 [Contribuições · Contributions · Beiträge](#contributions)
 - 🧩 [Princípios | Principles | Prinzipien](#principles)
 - 📄 [Licença | License | Lizenz](#license)
 
@@ -103,6 +104,60 @@ Ele conecta:
 - Use como memória externa
 - Registre trade-offs
 - Conecte decisões entre projetos
+
+---
+
+<a id="contributions"></a>
+## 🤝 Contribuições · Contributions · Beiträge
+
+Este repositório cresce por meio de **contribuições estruturadas**, mantendo
+consistência semântica e rastreabilidade ao longo do tempo.
+
+### Fluxo de contribuição
+
+1. Clone o **template vazio de repositório** disponível em:  
+   👉 `<URL_DO_TEMPLATE_AQUI>`
+
+2. Remova o vínculo com o repositório de origem:
+   ```bash
+   rm -rf .git
+````
+
+3. Preencha o bloco de **metadados** no `README.md`:
+
+   * `StageTags`
+   * `DomainTags`
+   * `TopicTags`
+   * `LibraryTags`
+   * `ModuleTags`
+
+4. Adicione o conteúdo do projeto:
+
+   * código
+   * documentação
+   * decisões relevantes
+
+5. Inicialize o novo repositório, adione o template recem obtido e publique em seguida:
+
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git push
+   ```
+
+### Diretrizes importantes
+
+* Utilize **apenas tags existentes** no SEARCH_CONTENT
+* Caso uma nova tag seja necessária, proponha sua inclusão antes
+* Priorize clareza sobre completude
+* Documentação faz parte da entrega, portanto reserve e atualize os ***metadados da organização** em [knowledge-hub
+/SEARCH_CONTENT](https://github.com/repository-for-the-curious/knowledge-hub/blob/main/SEARCH_CONTENT.md) ao final deste processo.
+
+Esse fluxo garante que o **Knowledge Hub cresça de forma orgânica, consistente
+e reutilizável**, por muito tempo. Sem perder coerência semântica.
+
+[MENU](#menu)
 
 ---
 
