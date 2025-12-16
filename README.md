@@ -1,7 +1,18 @@
 # 🧠 About the Knowledge Hub | Semantic Index · Índice Semântico · Wissenshub
 ---
 
-<a id="#menu"></a>
+🇧🇷 Português
+Núcleo de curadoria e navegação de conhecimento da organização Repository for the Curious, conectando temas, decisões e repositórios.
+
+🇺🇸 English
+Knowledge curation and navigation hub for the Repository for the Curious organization, connecting topics, decisions, and repositories.
+
+🇩🇪 Deutsch
+Zentraler Knoten zur Wissenskurierung und -navigation der Organisation Repository for the Curious, der Themen, Entscheidungen und Repositories verbindet.
+
+---
+
+<a id="menu"></a>
 ## MENU
 - 🧭 [Propósito | Purpose | Zweck](#purpose)
 - 🔎 [SEARCH_CONTENT](#search-content)
@@ -59,41 +70,49 @@ Er fungiert als:
 - Unterstützung für Entscheidungen
 - Werkzeug zur Wissensrückgewinnung
 
+[MENU](#menu)
+
 ---
 
 <a id="search-content"></a>
 ## 🔎 SEARCH_CONTENT
 
-O arquivo **SEARCH_CONTENT.md** é o **mapa semântico central** da organização.
+O arquivo **SEARCH_CONTENT.md** é o **mapa semântico central** da organização.  
+The **SEARCH_CONTENT.md** file is the organization’s **central semantic map**.  
+Die Datei **SEARCH_CONTENT.md** ist die **zentrale semantische Karte** der Organisation.
 
-Ele conecta:
-- temas
-- tags
-- repositórios
-- conceitos transversais
+Ele conecta · It connects · Er verbindet:
+- temas · topics · Themen  
+- tags · tags · Tags  
+- repositórios · repositories · Repositories  
+- conceitos transversais · cross-cutting concepts · Querschnittskonzepte  
 
-👉 Acesse aqui:  
+👉 Acesse · Access · Öffnen:  
 🔗 **[SEARCH_CONTENT.md](./SEARCH_CONTENT.md)**
+
+[MENU](#menu)
 
 ---
 
 <a id="how-to-use"></a>
-## 🧠 Como Usar | How to Use | Wie Verwenden
+## 🧠 Como Usar · How to Use · Wie Verwenden
 
-### Para visitantes e leitores
-- Use o SEARCH_CONTENT para descobrir temas
-- Navegue por tags
-- Acesse repositórios conforme seu interesse
+### Visitantes · Visitors · Besucher
+- Descobrir temas via SEARCH_CONTENT  
+- Navigate using tags  
+- Themen über den Index entdecken  
 
-### Para colaboradores
-- Use as **tags globais** nos READMEs
-- Mantenha decisões explícitas
-- Atualize o SEARCH_CONTENT ao adicionar novos projetos
+### Colaboradores · Contributors · Mitwirkende
+- Usar **tags globais** nos READMEs  
+- Keep decisions explicit  
+- SEARCH_CONTENT bei neuen Projekten aktualisieren  
 
-### Para o autor (e o futuro)
-- Use como memória externa
-- Registre trade-offs
-- Conecte decisões entre projetos
+### Autor (e futuro) · Author (and future) · Autor (und Zukunft)
+- Memória externa estruturada  
+- Trade-offs dokumentieren  
+- Entscheidungen über Projekte hinweg verbinden  
+
+[MENU](#menu)
 
 ---
 
@@ -124,7 +143,7 @@ Ziel ist es, **Konsistenz, Nachvollziehbarkeit und Wiederverwendbarkeit** zu gew
 
    ```bash
    rm -rf .git
-````
+   ```
 
 3. Preencha os **metadados** no `README.md`
    Fill in the **metadata** in `README.md`
