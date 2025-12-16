@@ -28,7 +28,7 @@
 <a id="tag-tree"></a>
 # Árvore de Tags · Tag Tree · Schlagwortbaum
 
-<a id="#stage-tags"></a>
+<a id="stage-tags"></a>
 ## 1️⃣ StageTags
 
 ```markdown
@@ -42,7 +42,7 @@
 
 ---
 
-<a id="#domain-tags"></a>
+<a id="domain-tags"></a>
 ## 2️⃣ DomainTags
 
 ```markdown
@@ -63,7 +63,7 @@
 
 ---
 
-<a id="#topic-tags"></a>
+<a id="topic-tags"></a>
 ## 3️⃣ TopicTags
 
 ```markdown
@@ -94,7 +94,7 @@
 
 ---
 
-<a id="#library-tags"></a>
+<a id="library-tags"></a>
 ## 4️⃣ LibraryTags — Bibliotecas
 
 ```markdown
@@ -115,7 +115,7 @@
 
 ---
 
-<a id="#module-tags"></a>
+<a id="module-tags"></a>
 ## 5️⃣ ModuleTags — Funções / Módulos Autorais
 
 ```markdown
