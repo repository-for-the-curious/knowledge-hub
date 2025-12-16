@@ -68,6 +68,7 @@ Er fungiert als:
 - Unterstützung für Entscheidungen
 - Werkzeug zur Wissensrückgewinnung
 
+[MENU](#menu)
 ---
 
 <a id="search-content"></a>
@@ -104,6 +105,8 @@ Ele conecta:
 - Registre trade-offs
 - Conecte decisões entre projetos
 
+[MENU](#menu)
+
 ---
 
 <a id="principles"></a>
@@ -116,6 +119,8 @@ Ele conecta:
 - Simplicidade vence abstração prematura
 - Organização é uma forma de engenharia
 
+[MENU](#menu)
+
 ---
 
 <a id="license"></a>
@@ -124,6 +129,7 @@ Ele conecta:
 Todo o conteúdo deste repositório é disponibilizado sob a licença **MIT**,
 salvo indicação contrária em arquivos ou repositórios específicos.
 
+[MENU](#menu)
 ---
 
 [⬆ Voltar ao topo | Back to top | Zurück nach oben](#knowledge-hub)
