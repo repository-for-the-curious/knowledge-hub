@@ -15,9 +15,6 @@ Zentraler Knoten zur Wissenskurierung und -navigation der Organisation Repositor
 - 🧭 [Propósito | Purpose | Zweck](#purpose)
 - 🔎 [SEARCH_CONTENT](#search-content)
 - 🧠 [Como Usar | How to Use | Wie Verwenden](#how-to-use)
-- 🧩 [Princípios | Principles | Prinzipien](#principles)
-- 📄 [Licença | License | Lizenz](#license)
-
 ---
 
 <a id="purpose"></a>
@@ -75,60 +72,41 @@ Er fungiert als:
 <a id="search-content"></a>
 ## 🔎 SEARCH_CONTENT
 
-O arquivo **SEARCH_CONTENT.md** é o **mapa semântico central** da organização.
+O arquivo **SEARCH_CONTENT.md** é o **mapa semântico central** da organização.  
+The **SEARCH_CONTENT.md** file is the organization’s **central semantic map**.  
+Die Datei **SEARCH_CONTENT.md** ist die **zentrale semantische Karte** der Organisation.
 
-Ele conecta:
-- temas
-- tags
-- repositórios
-- conceitos transversais
+Ele conecta · It connects · Er verbindet:
+- temas · topics · Themen  
+- tags · tags · Tags  
+- repositórios · repositories · Repositories  
+- conceitos transversais · cross-cutting concepts · Querschnittskonzepte  
 
-👉 Acesse aqui:  
+👉 Acesse · Access · Öffnen:  
 🔗 **[SEARCH_CONTENT.md](./SEARCH_CONTENT.md)**
 
 ---
 
 <a id="how-to-use"></a>
-## 🧠 Como Usar | How to Use | Wie Verwenden
+## 🧠 Como Usar · How to Use · Wie Verwenden
 
-### Para visitantes e leitores
-- Use o SEARCH_CONTENT para descobrir temas
-- Navegue por tags
-- Acesse repositórios conforme seu interesse
+### Visitantes · Visitors · Besucher
+- Descobrir temas via SEARCH_CONTENT  
+- Navigate using tags  
+- Themen über den Index entdecken  
 
-### Para colaboradores
-- Use as **tags globais** nos READMEs
-- Mantenha decisões explícitas
-- Atualize o SEARCH_CONTENT ao adicionar novos projetos
+### Colaboradores · Contributors · Mitwirkende
+- Usar **tags globais** nos READMEs  
+- Keep decisions explicit  
+- SEARCH_CONTENT bei neuen Projekten aktualisieren  
 
-### Para o autor (e o futuro)
-- Use como memória externa
-- Registre trade-offs
-- Conecte decisões entre projetos
-
-[MENU](#menu)
-
----
-
-<a id="principles"></a>
-## 🧩 Princípios | Principles | Prinzipien
-
-- Conhecimento sem contexto não escala
-- Código é consequência de decisões
-- Documentação é parte do sistema
-- Transparência reduz ruído cognitivo
-- Simplicidade vence abstração prematura
-- Organização é uma forma de engenharia
+### Autor (e futuro) · Author (and future) · Autor (und Zukunft)
+- Memória externa estruturada  
+- Trade-offs dokumentieren  
+- Entscheidungen über Projekte hinweg verbinden  
 
 [MENU](#menu)
 
 ---
 
-<a id="license"></a>
-## 📄 Licença | License | Lizenz
-
-Todo o conteúdo deste repositório é disponibilizado sob a licença **MIT**,
-salvo indicação contrária em arquivos ou repositórios específicos.
-
-[MENU](#menu)
 ---
