@@ -11,6 +11,7 @@ Zentraler Knoten zur Wissenskurierung und -navigation der Organisation Repositor
 
 ---
 
+<a id="menu"></a>
 ## MENU
 - 🧭 [Propósito | Purpose | Zweck](#purpose)
 - 🔎 [SEARCH_CONTENT](#search-content)
