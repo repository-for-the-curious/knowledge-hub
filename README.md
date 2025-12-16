@@ -1,22 +1,12 @@
-# 🧠 Knowledge Hub
-### Semantic Index · Índice Semântico · Wissenshub
-
-Este repositório funciona como o **núcleo de curadoria e navegação de conhecimento**
-da organização **Repository for the Curious**.
-
-Aqui não há código-fonte principal.
-Há **mapas, índices e relações conceituais** que conectam os diferentes
-repositórios, temas e decisões técnicas da organização.
-
+# 🧠 About the Knowledge Hub | Semantic Index · Índice Semântico · Wissenshub
 ---
 
+<a id="#menu"></a>
 ## MENU
 - 🧭 [Propósito | Purpose | Zweck](#purpose)
 - 🔎 [SEARCH_CONTENT](#search-content)
 - 🧠 [Como Usar | How to Use | Wie Verwenden](#how-to-use)
 - 🤝 [Contribuições · Contributions · Beiträge](#contributions)
-- 🧩 [Princípios | Principles | Prinzipien](#principles)
-- 📄 [Licença | License | Lizenz](#license)
 
 ---
 
@@ -110,20 +100,35 @@ Ele conecta:
 <a id="contributions"></a>
 ## 🤝 Contribuições · Contributions · Beiträge
 
-Este repositório cresce por meio de **contribuições estruturadas**, mantendo
-consistência semântica e rastreabilidade ao longo do tempo.
+Este repositório cresce por meio de **contribuições estruturadas e semânticas**.  
+This repository grows through **structured and semantic contributions**.  
+Dieses Repository wächst durch **strukturierte und semantische Beiträge**.
 
-### Fluxo de contribuição
+O objetivo é garantir **consistência, rastreabilidade e reutilização** ao longo do tempo.  
+The goal is to ensure **consistency, traceability, and reusability** over time.  
+Ziel ist es, **Konsistenz, Nachvollziehbarkeit und Wiederverwendbarkeit** zu gewährleisten.
 
-1. Clone o **template vazio de repositório** disponível em:  
+---
+
+### Fluxo de contribuição · Contribution flow · Beitragsablauf
+
+1. Clone o **template vazio de repositório**  
+   Clone the **empty repository template**  
+   Klonen Sie die **leere Repository-Vorlage**  
+
    👉 `<URL_DO_TEMPLATE_AQUI>`
 
-2. Remova o vínculo com o repositório de origem:
+2. Remova o vínculo com o repositório de origem  
+   Remove the link to the original repository  
+   Entfernen Sie die Verknüpfung zum Ursprungsrepository  
+
    ```bash
    rm -rf .git
 ````
 
-3. Preencha o bloco de **metadados** no `README.md`:
+3. Preencha os **metadados** no `README.md`
+   Fill in the **metadata** in `README.md`
+   Füllen Sie die **Metadaten** in der `README.md` aus
 
    * `StageTags`
    * `DomainTags`
@@ -131,13 +136,17 @@ consistência semântica e rastreabilidade ao longo do tempo.
    * `LibraryTags`
    * `ModuleTags`
 
-4. Adicione o conteúdo do projeto:
+4. Adicione o conteúdo do projeto
+   Add the project content
+   Fügen Sie den Projektinhalt hinzu
 
-   * código
-   * documentação
-   * decisões relevantes
+   * código · code · Code
+   * documentação · documentation · Dokumentation
+   * decisões relevantes · relevant decisions · relevante Entscheidungen
 
-5. Inicialize o novo repositório, adione o template recem obtido e publique em seguida:
+5. Inicialize e publique o novo repositório
+   Initialize and publish the new repository
+   Initialisieren und veröffentlichen Sie das neue Repository
 
    ```bash
    git init
@@ -146,39 +155,33 @@ consistência semântica e rastreabilidade ao longo do tempo.
    git push
    ```
 
-### Diretrizes importantes
+---
+
+### Diretrizes · Guidelines · Richtlinien
 
 * Utilize **apenas tags existentes** no SEARCH_CONTENT
-* Caso uma nova tag seja necessária, proponha sua inclusão antes
-* Priorize clareza sobre completude
-* Documentação faz parte da entrega, portanto reserve e atualize os ***metadados da organização** em [knowledge-hub
-/SEARCH_CONTENT](https://github.com/repository-for-the-curious/knowledge-hub/blob/main/SEARCH_CONTENT.md) ao final deste processo.
+  Use **only existing tags** from SEARCH_CONTENT
+  Verwenden Sie **nur bestehende Tags** aus SEARCH_CONTENT
 
-Esse fluxo garante que o **Knowledge Hub cresça de forma orgânica, consistente
-e reutilizável**, por muito tempo. Sem perder coerência semântica.
+* Caso uma nova tag seja necessária, proponha sua inclusão antes
+  Propose new tags before using them
+  Schlagen Sie neue Tags vor, bevor Sie sie verwenden
+
+* Priorize clareza sobre completude
+  Prioritize clarity over completeness
+  Priorisieren Sie Klarheit vor Vollständigkeit
+
+* Atualize os **metadados da organização** ao final do processo
+  Update the **organization metadata** at the end of the process
+  Aktualisieren Sie die **Metadaten der Organisation** am Ende des Prozesses
+
+  🔗 [knowledge-hub/SEARCH_CONTENT.md](https://github.com/repository-for-the-curious/knowledge-hub/blob/main/SEARCH_CONTENT.md)
+
+Esse fluxo garante que o **Knowledge Hub evolua de forma orgânica, consistente
+e sustentável**, sem perda de coerência semântica.
+This flow ensures **organic, consistent, and sustainable growth**.
+Dieser Ablauf gewährleistet **organisches, konsistentes und nachhaltiges Wachstum**.
 
 [MENU](#menu)
 
 ---
-
-<a id="principles"></a>
-## 🧩 Princípios | Principles | Prinzipien
-
-- Conhecimento sem contexto não escala
-- Código é consequência de decisões
-- Documentação é parte do sistema
-- Transparência reduz ruído cognitivo
-- Simplicidade vence abstração prematura
-- Organização é uma forma de engenharia
-
----
-
-<a id="license"></a>
-## 📄 Licença | License | Lizenz
-
-Todo o conteúdo deste repositório é disponibilizado sob a licença **MIT**,
-salvo indicação contrária em arquivos ou repositórios específicos.
-
----
-
-[⬆ Voltar ao topo | Back to top | Zurück nach oben](#knowledge-hub)
