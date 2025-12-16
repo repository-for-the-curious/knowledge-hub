@@ -67,6 +67,7 @@ Er fungiert als:
 - Werkzeug zur Wissensrückgewinnung
 
 [MENU](#menu)
+
 ---
 
 <a id="search-content"></a>
@@ -84,6 +85,8 @@ Ele conecta · It connects · Er verbindet:
 
 👉 Acesse · Access · Öffnen:  
 🔗 **[SEARCH_CONTENT.md](./SEARCH_CONTENT.md)**
+
+[MENU](#menu)
 
 ---
 
@@ -106,7 +109,5 @@ Ele conecta · It connects · Er verbindet:
 - Entscheidungen über Projekte hinweg verbinden  
 
 [MENU](#menu)
-
----
 
 ---
