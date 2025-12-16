@@ -1,12 +1,13 @@
-# 🧠 Knowledge Hub
-### Semantic Index · Índice Semântico · Wissenshub
+# 🧠 Knowledge Hub | Semantic Index · Índice Semântico · Wissenshub
 
-Este repositório funciona como o **núcleo de curadoria e navegação de conhecimento**
-da organização **Repository for the Curious**.
+🇧🇷 Português
+Núcleo de curadoria e navegação de conhecimento da organização Repository for the Curious, conectando temas, decisões e repositórios.
 
-Aqui não há código-fonte principal.
-Há **mapas, índices e relações conceituais** que conectam os diferentes
-repositórios, temas e decisões técnicas da organização.
+🇺🇸 English
+Knowledge curation and navigation hub for the Repository for the Curious organization, connecting topics, decisions, and repositories.
+
+🇩🇪 Deutsch
+Zentraler Knoten zur Wissenskurierung und -navigation der Organisation Repository for the Curious, der Themen, Entscheidungen und Repositories verbindet.
 
 ---
 
@@ -131,5 +132,3 @@ salvo indicação contrária em arquivos ou repositórios específicos.
 
 [MENU](#menu)
 ---
-
-[⬆ Voltar ao topo | Back to top | Zurück nach oben](#knowledge-hub)
