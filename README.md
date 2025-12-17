@@ -135,7 +135,7 @@ Ziel ist es, **Konsistenz, Nachvollziehbarkeit und Wiederverwendbarkeit** zu gew
    Clone the **empty repository template**  
    Klonen Sie die **leere Repository-Vorlage**  
 
-   👉 `<URL_DO_TEMPLATE_AQUI>`
+   👉 [Empty Repo Template](https://github.com/repository-for-the-curious/empty_repo)
 
 2. Remova o vínculo com o repositório de origem  
    Remove the link to the original repository  
