@@ -14,11 +14,13 @@
 <a id="repository-list"></a>
 # 📦 Lista de Repositórios · Repository List · Repository-Liste
 
-| Repo | CreateAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
-|------|----------|-----------|------------|-----------|-------------|------------|
-| [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) | 2026-03 | 1.4 | 2.5, 2.9, 2.11 | 3.2, 3.10, 3.16, 3.17, 3.22, 3.23 | 4.5, 4.12 | 5.6, 5.7 |
-| [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.16, 3.20, 3.23 | 4.1, 4.4, 4.5, 4.6, 4.9 | 5.1, 5.6, 5.7 |
-|  |  |  |  |  |  |  |
+**Visibilidade · Visibility · Sichtbarkeit:** 🔒 = repositório **privado** (clone e código exigem permissão na organização). 🔓 = **público**. Os ícones são **atualizados manualmente** neste ficheiro e podem não refletir imediatamente as definições no GitHub — confirme no repositório se precisar de precisão jurídica ou de acesso.
+
+| Vis. | Repo | CreateAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
+|:----:|------|----------|-----------|------------|-----------|-------------|------------|
+| 🔒 | [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) | 2026-03 | 1.4 | 2.5, 2.9, 2.11 | 3.2, 3.10, 3.16, 3.17, 3.22, 3.23 | 4.5, 4.12 | 5.6, 5.7 |
+| 🔒 | [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.16, 3.20, 3.23 | 4.1, 4.4, 4.5, 4.6, 4.9 | 5.1, 5.6, 5.7 |
+|  |  |  |  |  |  |  |  |
 
 **Apontamento · Pointer · Hinweis:** `3.22 WebSearch` e `3.23 WebScraping` distinguem busca via motores/APIs de resultados de extração típica a partir de HTML/DOM. O repositório [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) usa `3.22` como eixo principal; `3.23` aplica-se a fluxos colaterais (metadados/SERP), não a crawl genérico. O repositório [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) usa `3.23` como eixo principal (Selenium, DOM, containers). Ver glossário numérico e README de cada repo.
 
