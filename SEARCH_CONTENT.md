@@ -18,10 +18,12 @@
 
 | Repo | CreateAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
 |------------|----------|-----------|------------|-----------|-------------|------------|
-|            |          |           |            |           |             |            |
+| [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) | 2026-03 | 1.4 | 2.5, 2.9, 2.11 | 3.2, 3.10, 3.16, 3.17, 3.22, 3.23 | 4.5, 4.12 | 5.6, 5.7 |
 |            |          |           |            |           |             |            |
 |            |          |           |            |           |             |            |
 ```
+
+**Apontamento · Pointer · Hinweis:** `3.22 WebSearch` e `3.23 WebScraping` distinguem busca via motores/APIs de resultados de extração típica a partir de HTML/DOM. O repositório [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) usa `3.22` como eixo principal; `3.23` aplica-se a fluxos colaterais (metadados/SERP), não a crawl genérico — ver glossário numérico e README do repo.
 
 [MENU](#menu)
 
@@ -90,6 +92,8 @@
 3.19 Orchestration  
 3.20 Deployment  
 3.21 CoreLogic  
+3.22 WebSearch  
+3.23 WebScraping  
 ```
 
 [MENU](#menu)
@@ -111,6 +115,7 @@
 4.9 jupyterlab  
 4.10 fastapi  
 4.11 flask  
+4.12 duckduckgo_search  
 ```
 
 [MENU](#menu)
@@ -142,12 +147,14 @@
 <a id="numeric-glossary"></a>
 # 📚 Glossário Numérico · Numeric Glossary · Numerisches Glossar
 
+Códigos novos ou com definição expandida (além da árvore de tags). · New or expanded codes (beyond the tag tree). · Neue oder erweiterte Codes (zusätzlich zum Schlagwortbaum).
+
 ```markdown
 | Cod | Português | English | Deutsch |
 |------|-----------|---------|---------|
-|      |           |         |         |
-|      |           |         |         |
-|      |           |         |         |
+| 3.22 | Busca web (motores, SERP, APIs de resultados) | Web search (engines, SERP, result APIs) | Websuche (Suchmaschinen, SERP, Ergebnis-APIs) |
+| 3.23 | Web scraping (extração a partir de HTML/DOM ou páginas) | Web scraping (extraction from HTML/DOM or pages) | Web-Scraping (Extraktion aus HTML/DOM oder Seiten) |
+| 4.12 | Biblioteca duckduckgo_search (`ddgs`) | duckduckgo_search library (`ddgs`) | Bibliothek duckduckgo_search (`ddgs`) |
 ```
 
 [MENU](#menu)
