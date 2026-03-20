@@ -14,7 +14,36 @@
 <a id="repository-list"></a>
 # 📦 Lista de Repositórios · Repository List · Repository-Liste
 
-**Visibilidade · Visibility · Sichtbarkeit:** 🔒 = repositório **privado** (clone e código exigem permissão na organização). 🔓 = **público**. Os ícones são **atualizados manualmente** neste ficheiro e podem não refletir imediatamente as definições no GitHub — confirme no repositório se precisar de precisão jurídica ou de acesso.
+## **Visibilidade · Visibility · Sichtbarkeit:**
+
+### 🇧🇷 Português
+Os ícones são atualizados manualmente e podem não refletir imediatamente as definições no GitHub — confirme o seu nível de acesso antes de utilizar os repositórios.
+
+Nota: No GitHub, a visibilidade técnica é privada ou pública. Os ícones 👁️ e 🔓 acrescentam, neste índice, a política de uso e contribuição da organização (não surgem como tal na interface do GitHub).
+
+🔒 = Repositório privado: visualização, clone e uso do código exigem permissão desta organização.
+👁️ = Repositório público, orientado a consulta e uso (clone em geral permitido); contribuições seguem o README e a licença do repositório.
+🔓 = Repositório público com contribuições bem-vindas (ex.: pull requests, sujeitas a revisão e política da org). As contribuições podem ser integradas após aprovação — ver CONTRIBUTING e licença do repo (isto não substitui a licença do software).
+
+### 🇺🇸 English
+Icons are updated manually and may not immediately match the settings on GitHub — confirm your access level before using the repositories.
+
+Note: On GitHub, technical visibility is either private or public. The 👁️ and 🔓 icons add, in this index, the organization’s use and contribution policy (they do not appear that way in the GitHub UI).
+
+🔒 = Private repository: viewing, cloning, and using the code require permission from this organization.
+👁️ = Public repository, aimed at consultation and use (cloning is generally allowed); contributions follow the repository’s README and license.
+🔓 = Public repository with contributions welcome (e.g. pull requests, subject to review and org policy). Contributions may be merged after approval — see CONTRIBUTING and the repo license (this does not replace the software license).
+
+### 🇩🇪 Deutsch
+Die Symbole werden manuell gepflegt und können von den Einstellungen auf GitHub kurzzeitig abweichen — prüfen Sie Ihre Zugriffsrechte, bevor Sie die Repositories nutzen.
+
+Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die Symbole 👁️ und 🔓 ergänzen hier die Nutzungs- und Beitragsrichtlinie der Organisation (sie erscheinen in der GitHub-Oberfläche nicht in dieser Form).
+
+🔒 = Privates Repository: Ansehen, Klonen und Nutzen des Codes erfordern eine Genehmigung dieser Organisation.
+👁️ = Öffentliches Repository mit Fokus auf Lesen und Nutzen (Klonen in der Regel erlaubt); Beiträge richten sich nach README und Lizenz des Repositories.
+🔓 = Öffentliches Repository mit willkommenen Beiträgen (z. B. Pull Requests, vorbehaltlich Review und Org-Richtlinie). Beiträge können nach Freigabe integriert werden — siehe CONTRIBUTING und die Repo-Lizenz (dies ersetzt nicht die Softwarelizenz).
+
+## Lista de Repositórios · Repository List · Repository-Liste
 
 | Vis. | Repo | CreateAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
 |:----:|------|----------|-----------|------------|-----------|-------------|------------|
@@ -22,7 +51,10 @@
 | 🔒 | [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.16, 3.20, 3.23 | 4.1, 4.4, 4.5, 4.6, 4.9 | 5.1, 5.6, 5.7 |
 |  |  |  |  |  |  |  |  |
 
-**Apontamento · Pointer · Hinweis:** `3.22 WebSearch` e `3.23 WebScraping` distinguem busca via motores/APIs de resultados de extração típica a partir de HTML/DOM. O repositório [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) usa `3.22` como eixo principal; `3.23` aplica-se a fluxos colaterais (metadados/SERP), não a crawl genérico. O repositório [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) usa `3.23` como eixo principal (Selenium, DOM, containers). Ver glossário numérico e README de cada repo.
+## **Apontamento · Pointer · Hinweis:**
+🇧🇷 Português: Ver glossário numérico e README de cada repositório.
+🇺🇸 English: See the numeric glossary and each repository’s README.
+🇩🇪 Deutsch: Siehe das numerische Glossar und das README jedes Repositories.
 
 [MENU](#menu)
 
