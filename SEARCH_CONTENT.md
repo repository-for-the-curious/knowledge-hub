@@ -52,9 +52,9 @@ Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die
 | 🔓 | [how_to_containers](https://github.com/repository-for-the-curious/how_to_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.5, 3.10, 3.19, 3.20 | 4.5, 4.9 | 5.6, 5.7, 5.10 |
 
 ## **Apontamento · Pointer · Hinweis:**
-- 🇧🇷 Português: Ver [glossário numérico](#numeric-glossary) (códigos expandidos + **perfis dos repositórios**) e o README de cada repositório.
-- 🇺🇸 English: See the [numeric glossary](#numeric-glossary) (expanded codes + **repository profiles**) and each repository’s README.
-- 🇩🇪 Deutsch: Siehe das [numerische Glossar](#numeric-glossary) (erweiterte Codes + **Repository-Profile**) und das README jedes Repositories.
+- 🇧🇷 Português: Ver [glossário numérico](#numeric-glossary) e o README de cada repositório.
+- 🇺🇸 English: See the [numeric glossary](#numeric-glossary) and each repository’s README.
+- 🇩🇪 Deutsch: Siehe das [numerische Glossar](#numeric-glossary) und das README jedes Repositories.
 
 [MENU](#menu)
 
@@ -170,15 +170,15 @@ Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die
 
 ### 🇧🇷 Português
 
-Esta secção faz duas coisas: **(1)** define ou aprofunda **códigos** que merecem texto além da linha na [árvore de tags](#tag-tree); **(2)** resume **como ler as tags** de cada repositório listado — útil para cruzar com a [lista de repositórios](#repository-list) e com o README de cada um.
+Códigos da [árvore de tags](#tag-tree) com **definição alargada** (contexto da organização ou exemplo concreto de repositório). Para o nome canónico de cada código, continue a usar a árvore.
 
 ### 🇺🇸 English
 
-This section **(1)** defines or expands **codes** that need more than the one-line entry in the [tag tree](#tag-tree), and **(2)** summarizes **how to read the tags** for each listed repository — useful with the [repository list](#repository-list) and each repo’s README.
+Codes from the [tag tree](#tag-tree) with a **longer gloss** (org context or a concrete repo example). For the canonical label of each code, use the tree.
 
 ### 🇩🇪 Deutsch
 
-Dieser Abschnitt **(1)** definiert oder vertieft **Codes**, die mehr als die einzeilige Definition im [Schlagwortbaum](#tag-tree) brauchen, und **(2)** fasst zusammen, **wie die Tags** der gelisteten Repositories gelesen werden — zusammen mit der [Repository-Liste](#repository-list) und den jeweiligen READMEs.
+Codes aus dem [Schlagwortbaum](#tag-tree) mit **ausführlicherer Erläuterung** (Organisationskontext oder konkretes Repo-Beispiel). Der kanonische Name jedes Codes steht im Baum.
 
 ---
 
@@ -186,57 +186,24 @@ Dieser Abschnitt **(1)** definiert oder vertieft **Codes**, die mehr als die ein
 
 | Cod | Português | English | Deutsch |
 |-----|-----------|---------|---------|
+| 3.20 | *Deployment* com **Docker**: subir stack (ex.: base de dados + serviços) em containers, reprodutível entre máquinas | **Docker**-based **deployment**: run stacks (e.g. database + services) in containers, reproducibly across machines | **Deployment** mit **Docker**: Stacks (z. B. Datenbank + Dienste) in Containern, reproduzierbar auf verschiedenen Rechnern |
 | 3.22 | Busca web (motores, SERP, APIs de resultados) | Web search (engines, SERP, result APIs) | Websuche (Suchmaschinen, SERP, Ergebnis-APIs) |
 | 3.23 | Web scraping (extração a partir de HTML/DOM ou páginas) | Web scraping (extraction from HTML/DOM or pages) | Web-Scraping (Extraktion aus HTML/DOM oder Seiten) |
-| 4.12 | Biblioteca duckduckgo_search (`ddgs`) | duckduckgo_search library (`ddgs`) | Bibliothek duckduckgo_search (`ddgs`) |
+| 4.1 | **pandas**: tabelas, ETL leve, *pipelines* sobre CSV/Parquet e dados em memória | **pandas**: tables, light ETL, pipelines over CSV/Parquet and in-memory data | **pandas**: Tabellen, leichtes ETL, Pipelines über CSV/Parquet und In-Memory-Daten |
+| 4.4 | **Selenium**: controlar browser (testes E2E, preenchimento de formulários, scraping com JS) | **Selenium**: drive the browser (E2E tests, form flows, JS-heavy scraping) | **Selenium**: Browser steuern (E2E-Tests, Formulare, Scraping mit JS) |
+| 4.5 | **requests**: cliente HTTP em Python (REST, downloads, integração com APIs) | **requests**: Python HTTP client (REST, downloads, API calls) | **requests**: HTTP-Client in Python (REST, Downloads, API-Aufrufe) |
+| 4.6 | **BeautifulSoup**: analisar HTML/XML em fluxos de extração junto de `requests` ou Selenium | **BeautifulSoup**: parse HTML/XML in extraction flows with `requests` or Selenium | **BeautifulSoup**: HTML/XML in Extraktionspipelines mit `requests` oder Selenium parsen |
+| 4.9 | **JupyterLab**: notebooks e exploração interativa de dados no meio do *pipeline* | **JupyterLab**: notebooks and interactive data exploration inside the pipeline | **JupyterLab**: Notebooks und interaktive Datenexploration in der Pipeline |
+| 4.12 | Biblioteca **duckduckgo_search** (`ddgs`) | **duckduckgo_search** library (`ddgs`) | Bibliothek **duckduckgo_search** (`ddgs`) |
+| 5.1 | **load_data**: ingerir dados (ficheiros, APIs, resultado de scraping) para as etapas seguintes do fluxo | **load_data**: ingest data (files, APIs, scraping output) for downstream steps | **load_data**: Daten einlesen (Dateien, APIs, Scraping-Ergebnis) für nachgelagerte Schritte |
 
----
+### `selenium_and_postgre_containers` — leitura das tags
 
-## Repositórios indexados · Indexed repositories · Erfasste Repositories
+**🇧🇷** Este repositório junta **Selenium** (4.4) para automatizar o browser, **pandas** (4.1) para transformar dados, **requests** (4.5) e **BeautifulSoup** (4.6) quando a origem é HTML, **JupyterLab** (4.9) para exploração, e **PostgreSQL** servido em **Docker** — daí **3.20** (*deployment* de stack containerizada) e **2.6** (ambiente reprodutível). **3.16** cobre importação de dados; **3.23** quando o fluxo extrai páginas web. Os módulos autorais **5.1** (carga), **5.6** (relatórios) e **5.7** (API externa) descrevem o tipo de funções esperadas no código.
 
-### `api_duckduckgo`
+**🇺🇸** The repo combines **Selenium** (4.4) for browser automation, **pandas** (4.1) for data shaping, **requests** (4.5) and **BeautifulSoup** (4.6) for HTML sources, **JupyterLab** (4.9) for exploration, and **PostgreSQL** on **Docker** — hence **3.20** (container stack deployment) and **2.6** (reproducible environment). **3.16** covers data import; **3.23** when the flow scrapes the web. **5.1** (load), **5.6** (reporting), and **5.7** (external API) describe typical author modules.
 
-**🇧🇷** Código e exemplos em torno da **API / automação** de consultas DuckDuckGo: obter resultados de busca, tratá-los como **importação/exportação** de dados e, quando necessário, complementar com **scraping**. O repositório é tratado como **recurso** (1.4) de desenvolvimento e análise.
-
-**🇺🇸** Code and samples for **API / automation** around DuckDuckGo queries: fetch search results, handle them as **data import/export**, and use **scraping** where needed. Tagged as a mature **resource** (1.4) for development and analysis.
-
-**🇩🇪** Code und Beispiele für **API / Automatisierung** mit DuckDuckGo: Suchergebnisse holen, als **Datenimport/-export** behandeln und bei Bedarf **Scraping** ergänzen. Als ausgereiftes **Resource**-Repository (1.4) für Entwicklung und Analyse getaggt.
-
-**Tags (referência cruzada):** `1.4` · `2.5, 2.9, 2.11` · `3.2, 3.10, 3.16, 3.17, 3.22, 3.23` · `4.5, 4.12` · `5.6, 5.7`
-
----
-
-### `selenium_and_postgre_containers`
-
-**🇧🇷** **Automação** de browser (**Selenium**), **pipelines** de dados com **pandas**, e **PostgreSQL em Docker**: foco em **ambiente** reprodutível (2.6), **implantação** de stacks com containers (3.20) e **importação** de dados (3.16). Inclui **scraping** (3.23) quando o fluxo extrai conteúdo da web. **Módulos** refletem carga de dados, relatórios e chamadas externas (5.1, 5.6, 5.7).
-
-**🇺🇸** **Browser automation** (**Selenium**), **pandas** data **pipelines**, and **PostgreSQL in Docker**: emphasizes reproducible **environment** (2.6), **deployment** of containerized stacks (3.20), and **data import** (3.16). **Web scraping** (3.23) applies when the flow pulls content from the web. **Module** tags reflect loading data, reporting, and external calls (5.1, 5.6, 5.7).
-
-**🇩🇪** **Browser-Automatisierung** (**Selenium**), **pandas**-Daten**pipelines** und **PostgreSQL in Docker**: Schwerpunkt auf reproduzierbarer **Umgebung** (2.6), **Deployment** containerisierter Stacks (3.20) und **Datenimport** (3.16). **Web-Scraping** (3.23), wenn Inhalte aus dem Web bezogen werden. **Modul-Tags** für Laden von Daten, Reporting und externe Aufrufe (5.1, 5.6, 5.7).
-
-**Tags (referência cruzada):** `1.4` · `2.5, 2.6, 2.9, 2.11` · `3.2, 3.16, 3.20, 3.23` · `4.1, 4.4, 4.5, 4.6, 4.9` · `5.1, 5.6, 5.7`
-
----
-
-### `how_to_containers`
-
-**🇧🇷** **Documentação** (não código de produto): Docker, Compose, WSL/Git e **Ollama** em container. Destaque para **IA** aplicada a inferência local (3.5), **API** HTTP (3.10), **orquestração** com Compose (3.19) e **deployment** em ambiente containerizado (3.20). **Bibliotecas** citadas nos exemplos (`requests`, notebooks). **Módulos** no sentido de guias, chamadas à API Ollama e orquestração de *pipelines* (5.6, 5.7, 5.10).
-
-**🇺🇸** **Documentation** (not production app code): Docker, Compose, WSL/Git, and containerized **Ollama**. Highlights **AI** for local inference (3.5), **HTTP API** (3.10), **orchestration** with Compose (3.19), and containerized **deployment** (3.20). **Libraries** appear in samples (`requests`, notebooks). **Module** tags mean guides, Ollama API usage, and pipeline orchestration (5.6, 5.7, 5.10).
-
-**🇩🇪** **Dokumentation** (kein Produktivcode): Docker, Compose, WSL/Git und **Ollama** im Container. Schwerpunkte: **KI** für lokale Inferenz (3.5), **HTTP-API** (3.10), **Orchestrierung** mit Compose (3.19) und **Deployment** in Containerumgebungen (3.20). **Bibliotheken** in Beispielen (`requests`, Notebooks). **Modul-Tags** im Sinne von Anleitungen, Ollama-API und Pipeline-Orchestrierung (5.6, 5.7, 5.10).
-
-**Tags (referência cruzada):** `1.4` · `2.5, 2.6, 2.9, 2.11` · `3.2, 3.5, 3.10, 3.19, 3.20` · `4.5, 4.9` · `5.6, 5.7, 5.10`
-
----
-
-### Leitura conjunta · Reading across repos · Quervergleich
-
-**🇧🇷** **1.4** aparece nos três: material de referência reutilizável. **2.5** e **2.9** ligam desenvolvimento e tratamento de dados. **3.2** (automação) e **3.10** (API) unem `api_duckduckgo` e `how_to_containers`. **3.23** (scraping) aplica-se a `api_duckduckgo` e `selenium_and_postgre_containers`. **4.5** (`requests`) a `api_duckduckgo` e `how_to_containers`.
-
-**🇺🇸** **1.4** in all three: reusable reference material. **2.5** and **2.9** tie development and data handling. **3.2** (automation) and **3.10** (API) link `api_duckduckgo` and `how_to_containers`. **3.23** (scraping) fits `api_duckduckgo` and `selenium_and_postgre_containers`. **4.5** (`requests`) for `api_duckduckgo` and `how_to_containers`.
-
-**🇩🇪** **1.4** in allen dreien: wiederverwendbare Referenz. **2.5** und **2.9** verbinden Entwicklung und Datenverarbeitung. **3.2** (Automatisierung) und **3.10** (API) verbinden `api_duckduckgo` und `how_to_containers`. **3.23** (Scraping) für `api_duckduckgo` und `selenium_and_postgre_containers`. **4.5** (`requests`) für `api_duckduckgo` und `how_to_containers`.
+**🇩🇪** Das Repo verbindet **Selenium** (4.4) für Browserautomatisierung, **pandas** (4.1) für Datenaufbereitung, **requests** (4.5) und **BeautifulSoup** (4.6) für HTML-Quellen, **JupyterLab** (4.9) zur Exploration und **PostgreSQL** unter **Docker** — deshalb **3.20** (Container-Stack-Deployment) und **2.6** (reproduzierbare Umgebung). **3.16** für Datenimport; **3.23** bei Web-Extraktion. **5.1**, **5.6** und **5.7** beschreiben typische Autorenmodule.
 
 [MENU](#menu)
 
