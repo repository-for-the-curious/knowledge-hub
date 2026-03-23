@@ -45,11 +45,12 @@ Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die
 
 ## Lista de Repositórios · Repository List · Repository-Liste
 
-| Vis. | Repo | CreateAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
+| Vis. | Repo | CreatedAt | StageTags | DomainTags | TopicTags | LibraryTags | ModuleTags |
 |:----:|------|----------|-----------|------------|-----------|-------------|------------|
 | 🔒 | [api_duckduckgo](https://github.com/repository-for-the-curious/api_duckduckgo) | 2026-03 | 1.4 | 2.5, 2.9, 2.11 | 3.2, 3.10, 3.16, 3.17, 3.22, 3.23 | 4.5, 4.12 | 5.6, 5.7 |
 | 🔒 | [selenium_and_postgre_containers](https://github.com/repository-for-the-curious/selenium_and_postgre_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.16, 3.20, 3.23 | 4.1, 4.4, 4.5, 4.6, 4.9 | 5.1, 5.6, 5.7 |
 | 🔓 | [how_to_containers](https://github.com/repository-for-the-curious/how_to_containers) | 2026-03 | 1.4 | 2.5, 2.6, 2.9, 2.11 | 3.2, 3.5, 3.10, 3.19, 3.20 | 4.5, 4.9 | 5.6, 5.7, 5.10 |
+| 🔓 | [my_md_tool](https://github.com/repository-for-the-curious/my_md_tool) | 2026-03 | 1.4 | 2.5, 2.6, 2.11 | 3.1, 3.4, 3.21 | 4.13, 4.14, 4.15, 4.16 | 5.13, 5.14, 5.15 |
 
 ## **Apontamento · Pointer · Hinweis:**
 - 🇧🇷 Português: Ver [glossário numérico](#numeric-glossary) e o README de cada repositório.
@@ -140,6 +141,10 @@ Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die
 - **4.10** fastapi
 - **4.11** flask
 - **4.12** duckduckgo_search
+- **4.13** textual
+- **4.14** rich
+- **4.15** markdown
+- **4.16** pyyaml
 
 [MENU](#menu)
 
@@ -160,6 +165,9 @@ Hinweis: Auf GitHub ist die technische Sichtbarkeit privat oder öffentlich. Die
 - **5.10** orchestrate_pipeline
 - **5.11** detect_bias
 - **5.12** log_metrics
+- **5.13** render_markdown
+- **5.14** manage_vault
+- **5.15** run_terminal_session
 
 [MENU](#menu)
 
@@ -195,7 +203,14 @@ Codes aus dem [Schlagwortbaum](#tag-tree) mit **ausführlicherer Erläuterung** 
 | 4.6 | **BeautifulSoup**: analisar HTML/XML em fluxos de extração junto de `requests` ou Selenium | **BeautifulSoup**: parse HTML/XML in extraction flows with `requests` or Selenium | **BeautifulSoup**: HTML/XML in Extraktionspipelines mit `requests` oder Selenium parsen |
 | 4.9 | **JupyterLab**: notebooks e exploração interativa de dados no meio do *pipeline* | **JupyterLab**: notebooks and interactive data exploration inside the pipeline | **JupyterLab**: Notebooks und interaktive Datenexploration in der Pipeline |
 | 4.12 | Biblioteca **duckduckgo_search** (`ddgs`) | **duckduckgo_search** library (`ddgs`) | Bibliothek **duckduckgo_search** (`ddgs`) |
+| 4.13 | **Textual**: framework Python para interfaces TUI reativas baseadas em componentes | **Textual**: Python framework for reactive component-based TUI applications | **Textual**: Python-Framework für reaktive, komponentenbasierte TUI-Anwendungen |
+| 4.14 | **Rich**: renderização avançada de texto, painéis e Markdown no terminal | **Rich**: advanced terminal rendering for text, panels, and Markdown | **Rich**: erweiterte Terminal-Ausgabe für Text, Panels und Markdown |
+| 4.15 | **markdown**: conversão e parsing de Markdown para visualização estruturada | **markdown**: Markdown parsing and conversion for structured rendering | **markdown**: Markdown-Parsing und -Konvertierung für strukturierte Darstellung |
+| 4.16 | **PyYAML**: leitura e escrita de YAML (ex.: frontmatter e configurações) | **PyYAML**: YAML parsing/serialization (e.g., frontmatter and config) | **PyYAML**: YAML lesen/schreiben (z. B. Frontmatter und Konfiguration) |
 | 5.1 | **load_data**: ingerir dados (ficheiros, APIs, resultado de scraping) para as etapas seguintes do fluxo | **load_data**: ingest data (files, APIs, scraping output) for downstream steps | **load_data**: Daten einlesen (Dateien, APIs, Scraping-Ergebnis) für nachgelagerte Schritte |
+| 5.13 | **render_markdown**: renderizar Markdown (e metadados) em vista de pré-visualização na interface | **render_markdown**: render Markdown (and metadata) into a live preview panel | **render_markdown**: Markdown (und Metadaten) in einer Live-Vorschau rendern |
+| 5.14 | **manage_vault**: gerir árvore de ficheiros, abertura/salvamento e histórico do vault | **manage_vault**: handle vault tree, file open/save, and vault history | **manage_vault**: Datei-Baum, Öffnen/Speichern und Verlauf des Vaults verwalten |
+| 5.15 | **run_terminal_session**: executar sessão de shell/terminal integrada com controle de processo | **run_terminal_session**: run integrated shell/terminal sessions with process control | **run_terminal_session**: integrierte Shell-/Terminal-Sitzungen mit Prozesskontrolle ausführen |
 
 ### `selenium_and_postgre_containers` — leitura das tags
 
@@ -204,6 +219,14 @@ Codes aus dem [Schlagwortbaum](#tag-tree) mit **ausführlicherer Erläuterung** 
 **🇺🇸** The repo combines **Selenium** (4.4) for browser automation, **pandas** (4.1) for data shaping, **requests** (4.5) and **BeautifulSoup** (4.6) for HTML sources, **JupyterLab** (4.9) for exploration, and **PostgreSQL** on **Docker** — hence **3.20** (container stack deployment) and **2.6** (reproducible environment). **3.16** covers data import; **3.23** when the flow scrapes the web. **5.1** (load), **5.6** (reporting), and **5.7** (external API) describe typical author modules.
 
 **🇩🇪** Das Repo verbindet **Selenium** (4.4) für Browserautomatisierung, **pandas** (4.1) für Datenaufbereitung, **requests** (4.5) und **BeautifulSoup** (4.6) für HTML-Quellen, **JupyterLab** (4.9) zur Exploration und **PostgreSQL** unter **Docker** — deshalb **3.20** (Container-Stack-Deployment) und **2.6** (reproduzierbare Umgebung). **3.16** für Datenimport; **3.23** bei Web-Extraktion. **5.1**, **5.6** und **5.7** beschreiben typische Autorenmodule.
+
+### `my_md_tool` — leitura das tags e apontamentos
+
+**🇧🇷** Editor Markdown em TUI com **Textual** (4.13), **Rich** (4.14), **markdown** (4.15) e **PyYAML** (4.16). **1.4** (recurso/ferramenta), **2.5** (desenvolvimento), **2.6** (ambiente Python), **2.11** (análise de uso), **3.1** (implementação), **3.4** (visualização / pré-visualização), **3.21** (lógica central em `markdown_editor.py`). **5.13–5.15**: `render_markdown`, `manage_vault`, `run_terminal_session`. O [README do `my_md_tool`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/README.md) declara o mesmo conjunto de tags no frontmatter YAML e resume o produto em PT/EN/DE; [`docs/📝 About.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📝%20About.md) alarga com visão geral, layout, abas/sessão, stack, compatibilidade e índice de `docs/`; [`docs/📘 Funcionalidades.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📘%20Funcionalidades.md) é o canónico técnico (áreas e módulos).
+
+**🇺🇸** TUI Markdown editor using **Textual** (4.13), **Rich** (4.14), **markdown** (4.15), and **PyYAML** (4.16). **1.4** (tool/resource), **2.5** (development), **2.6** (Python environment), **2.11** (usage analysis), **3.1** (implementation), **3.4** (visualization / preview), **3.21** (core logic in `markdown_editor.py`). **5.13–5.15**: `render_markdown`, `manage_vault`, `run_terminal_session`. The [`my_md_tool` README](https://github.com/repository-for-the-curious/my_md_tool/blob/main/README.md) carries the same tag set in YAML frontmatter and a trilingual overview; [`docs/📝 About.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📝%20About.md) expands with layout, tabs/session, stack, compatibility, and a `docs/` index; [`docs/📘 Funcionalidades.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📘%20Funcionalidades.md) is the technical reference.
+
+**🇩🇪** TUI-Markdown-Editor mit **Textual** (4.13), **Rich** (4.14), **markdown** (4.15) und **PyYAML** (4.16). **1.4** (Werkzeug), **2.5** (Entwicklung), **2.6** (Python-Umgebung), **2.11** (Nutzungsanalyse), **3.1** (Implementierung), **3.4** (Visualisierung / Vorschau), **3.21** (Kernlogik in `markdown_editor.py`). **5.13–5.15**: `render_markdown`, `manage_vault`, `run_terminal_session`. Das [README von `my_md_tool`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/README.md) enthält dieselben Tags im YAML-Frontmatter und eine dreisprachige Übersicht; [`docs/📝 About.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📝%20About.md) ergänzt Layout, Tabs/Sitzung, Stack, Kompatibilität und einen `docs/`-Index; [`docs/📘 Funcionalidades.md`](https://github.com/repository-for-the-curious/my_md_tool/blob/main/docs/📘%20Funcionalidades.md) ist die technische Referenz.
 
 [MENU](#menu)
 
